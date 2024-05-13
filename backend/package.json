@@ -7,11 +7,8 @@
     "start": "nodemon -e '*'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "INST377-FINAL-PROJECT"
-  },
-  "author": "",
+
+  "author": "Calvin Chu",
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.43.1",
