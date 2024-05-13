@@ -25,8 +25,9 @@ app.post('/trackers',async (req,res)=>{
     var lastName = req.body.last_name;
     var goal_calories = req.body.goal_calories;
     var goal_fats = req.body.goal_fats;
-    var goal_carbs = req.body.goal_carb;
+    var goal_carbs = req.body.goal_carbs;
     var goal_protein =req.body.goal_protein
+    console.log("carbs",req.body.goal_carbs)
  
     const { data, error } = await supabase
 
