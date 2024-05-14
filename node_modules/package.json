@@ -1,0 +1,18 @@
+{
+  "name": "inst377-final-project",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calvin Chu",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
